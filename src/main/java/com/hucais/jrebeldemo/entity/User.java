@@ -1,6 +1,5 @@
 package com.hucais.jrebeldemo.entity;
 
-import com.sun.istack.internal.NotNull;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;
@@ -23,7 +22,6 @@ public class User {
 
     @ApiModelProperty("年龄")
     private Integer age;
-    @NotNull
     private String address;
 
     private String email;
